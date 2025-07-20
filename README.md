@@ -40,20 +40,24 @@ I'm **Ojasvee**, a full-stack engineer with a passion for clean code, meaningful
 
 ## 📂 Featured Projects
 
-- **[student-portfolio](https://github.com/Ojasvee10/student-portfolio)**  
-  A responsive personal showcase with interactive components and CSS animations.
+- **[ReWear](https://github.com/Ojasvee10/Rewear)**  
+   A sustainable fashion platform for donating, swapping, and upcycling clothes.
 
-- **[expense-tracker-android](https://github.com/Ojasvee10/expense-tracker-android)**  
-  Android app to monitor and visualize your monthly expenses using Room & charts.
+- **[ai_virtual_mouse](https://github.com/Ojasvee10/ai_virtual_mouse)**  
+  An AI-based virtual mouse system using computer vision to detect and track hand gestures or facial movements. Enables cursor control and clicks using gestures—ideal for touchless navigation. Built using Python, OpenCV, and Mediapipe.
 
-- **[open-source-contributions](https://github.com/Ojasvee10/open-source-contributions)**  
-  A curated collection of my merged PRs in open-source projects—check issues resolved, enhancements, and code quality improvements.
+
+
+- **[elderlycareai](https://github.com/Ojasvee10/elderlycareai)**  
+  AI-powered assistant for monitoring and supporting elderly care through smart alerts and behavior tracking.
+
+
 
 ---
 
 ## 🌟 What’s Next
 
-- Refining architecture with **Jetpack Compose & Hilt**  
+- Refining architecture with **LumiPysche**
 - Building back-end APIs in **TypeScript + GraphQL**  
 - Deploying dockerized full-stack apps to the cloud (AWS / GCP)
 
@@ -61,9 +65,9 @@ I'm **Ojasvee**, a full-stack engineer with a passion for clean code, meaningful
 
 ## 📫 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/ojasvee10)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ojasvee-gupta/) 
 [![Portfolio](https://img.shields.io/badge/Website-ojsvee.dev-green?style=flat-square&logo=google-chrome)](https://ojasvee.dev)  
-✉️ Feel free to reach out at `ojasvee@example.com`
+✉️ Feel free to reach out at `ojasveegupta10@gmail.com`
 
 ---
 
