@@ -10,7 +10,7 @@
 ---
 
 ### 🧠 About Me
-```python
+
 class AboutOjasvee:
     def __init__(self):
         self.current_work = "Engineering Student & Open-Source Contributor"
@@ -18,7 +18,6 @@ class AboutOjasvee:
         self.learning = ["GraphQL", "TypeScript", "Docker & Kubernetes", "System Design"]
         self.goals = ["Contribute to large-scale open-source projects", "Master Cloud Architecture"]
         self.fun_fact = "I believe the best code is readable code."
-
     def __str__(self):
         return "Let's build something amazing together."
 
