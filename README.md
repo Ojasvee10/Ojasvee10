@@ -10,7 +10,7 @@
 ---
 
 ### 🧠 About Me
-
+```python
 class AboutOjasvee:
     def __init__(self):
         self.current_work = "Engineering Student & Open-Source Contributor"
