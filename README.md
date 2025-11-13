@@ -1,77 +1,90 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira%20Code&size=24&pause=1000&color=BB86FC&width=600&lines=Hi,+I+am+Ojasvee+Gupta!;I'm+a+Passionate+Full-Stack+Engineer" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&color=7FDBFF&width=600&lines=Hey+%F0%9F%91%8B+I'm+Ojasvee+Gupta;Full-Stack+Engineer+%7C+Mobile+Developer;Crafting+Scalable+%26+Human-Centric+Apps" alt="Typing SVG"/>
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=Ojasvee10&style=flat-square" alt="Profile views"/>
-<img src="https://img.shields.io/badge/TopLanguage-JavaScript-yellow?style=flat-square&logo=javascript" alt="Top Language"/>
-<img src="https://img.shields.io/badge/Frontend-React-blue?style=flat-square&logo=react" alt="React"/>
-<img src="https://img.shields.io/badge/Continuously_Learning-Yes-green?style=flat-square"/>
+  <img src="https://komarev.com/ghpvc/?username=Ojasvee10&style=flat-square&color=blueviolet" />
+  <img src="https://img.shields.io/badge/Code%20Craftsmanship-Always%20Improving-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Top%20Skill-JavaScript-yellow?style=flat-square&logo=javascript" />
+  <img src="https://img.shields.io/badge/React%20Enthusiast-%E2%9C%85-blue?style=flat-square&logo=react" />
 </p>
 
 ---
 
-## 🚀 About Me
-I'm **Ojasvee**, a full-stack engineer with a passion for clean code, meaningful design, and delightful developer experiences.
+## 🚀 **About Me**
+I'm **Ojasvee**, a passionate **Full-Stack + Mobile Developer** who loves transforming ideas into well-engineered, scalable, and elegant digital products.
 
-- 💼 Currently an **Engineering Student** & open-source contributor  
-- 🌱 Deeply into **React**, **Node.js**, **Android (Kotlin + Jetpack Compose)**  
-- 🎯 Learning **GraphQL**, **TypeScript**, **Docker & Kubernetes**
-
----
-
-## 🛠️ Tech Stack & Tools
-
-| Front‑end | Back‑end | Mobile | Databases & Cloud | DevOps & Tools |
-|-----------|----------|--------|--------------------|----------------|
-| React, Vue, HTML/CSS, Tailwind, Next.js | Node.js, Express, REST & GraphQL | Kotlin, Jetpack Compose, Android SDK | MongoDB, SQLite, PostgreSQL, Firebase | Git, GitHub Actions, Docker, Kubernetes |
-
----
-## 📈 GitHub Stats & Activity
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Ojasvee10&show_icons=true&theme=radical&hide_border=true" alt="Ojasvee's GitHub Stats" width="48%"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ojasvee10&theme=radical&hide_border=true" alt="GitHub Streak" width="48%"/> </p><p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ojasvee10&theme=react-dark&hide_border=true&area=true" alt="Activity Graph" width="90%"/> </p>  
-
-
-## 📂 Featured Projects
-
-- **[ReWear](https://github.com/Ojasvee10/Rewear)**  
-   A sustainable fashion platform for donating, swapping, and upcycling clothes.
-
-- **[ai_virtual_mouse](https://github.com/Ojasvee10/ai_virtual_mouse)**  
-  An AI-based virtual mouse system using computer vision to detect and track hand gestures or facial movements. Enables cursor control and clicks using gestures—ideal for touchless navigation. Built using Python, OpenCV, and Mediapipe.
-
-
-
-- **[elderlycareai](https://github.com/Ojasvee10/elderlycareai)**  
-  AI-powered assistant for monitoring and supporting elderly care through smart alerts and behavior tracking.
-
-
+- 🎓 **Engineering Student** | Open-Source Advocate  
+- 💙 Specialized in **React**, **Node.js**, **Kotlin (Jetpack Compose)**  
+- ⚡ Exploring **TypeScript**, **GraphQL**, **Docker**, **Kubernetes**  
+- 🧠 Interested in Applied AI, Productivity Tools & Developer UX
 
 ---
 
-## 🌟 What’s Next
+## 🛠️ **Tech Stack**
+<p align="center">
+  
+| Frontend | Backend | Mobile | Databases | DevOps & Tools |
+|----------|----------|---------|------------|----------------|
+| React • Next.js • Vue • Tailwind | Node.js • Express • REST • GraphQL | Kotlin • Jetpack Compose • Android SDK | MongoDB • PostgreSQL • SQLite • Firebase | Docker • GitHub Actions • Kubernetes • Git |
 
-- Refining architecture with **LumiPysche**
-- Building back-end APIs in **TypeScript + GraphQL**  
-- Deploying dockerized full-stack apps to the cloud (AWS / GCP)
-
----
-
-## 📫 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ojasvee-gupta/) 
-[![Portfolio](https://img.shields.io/badge/Website-ojsvee.dev-green?style=flat-square&logo=google-chrome)](https://ojasvee.dev)  
-✉️ Feel free to reach out at `ojasveegupta10@gmail.com`
+</p>
 
 ---
 
-## 🧩 More Widgets & Fun Add-ons
+## 📊 **GitHub Insights**
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Ojasvee10&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ojasvee10&theme=tokyonight&hide_border=true" />
+</p>
 
-- 🌱 WakaTime weekly coding stats  
-- 🎧 Spotify “Now Playing” widget  
-- 📬 Latest blog posts or StackOverflow activity  
-- 🎯 Visitor counter and motivational quotes  
+<p align="center">
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ojasvee10&theme=react-dark&hide_border=true&area=true" />
+</p>
 
 ---
 
-Thanks for dropping by 🚀  
-If you're here to collaborate or have a project idea, let’s chat below!
+## 🌟 **Featured Projects**
+
+### 🔹 [ReWear](https://github.com/Ojasvee10/Rewear)  
+A platform promoting sustainability—donate, swap, and upcycle your clothes. Built for long-term social impact.
+
+### 🔹 [AI Virtual Mouse](https://github.com/Ojasvee10/ai_virtual_mouse)  
+Gesture-controlled, touchless interaction system using **OpenCV + Mediapipe** for cursor tracking.
+
+### 🔹 [ElderlyCareAI](https://github.com/Ojasvee10/elderlycareai)  
+Smart elderly assistance with **AI-powered reminders, safety monitoring & behavior analysis**.
+
+---
+
+## 📌 **What I'm Building Next**
+- Production-ready backend with **TypeScript + GraphQL**  
+- Scalable microservices in **Docker & Kubernetes**  
+- Enhanced analytics + automation for **LumiPysche**
+
+---
+
+## 📫 **Let's Connect**
+<p>
+<a href="https://www.linkedin.com/in/ojasvee-gupta/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" /></a>
+<a href="https://ojasvee.dev"><img src="https://img.shields.io/badge/Portfolio-ojsvee.dev-green?style=flat-square&logo=google-chrome" /></a>
+</p>
+
+📩 Email: **ojasveegupta10@gmail.com**
+
+---
+
+## 🎉 Extra Goodies (Optional Add-ons)
+You can plug any of these into your README:
+
+- ⏳ WakaTime weekly coding stats  
+- 🎧 Spotify "Now Playing"  
+- 📝 Latest blogs  
+- 🧩 Random quote / productivity reminder  
+- 🐍 Contribution Snake graph  
+
+---
+
+<p align="center">
+  ⭐ If you like my work, consider giving a star to my repositories!
+</p>
