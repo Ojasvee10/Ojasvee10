@@ -1,161 +1,138 @@
-<img align="left" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="25%">
-<img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="25%">
+<!-- ========== HERO SECTION ========== -->
 
-<br><br><br>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=900&center=true&vCenter=true&color=00E5FF&width=650&lines=Hi%2C+I'm+Ojasvee+Gupta!;Software+Developer+%7C+AI%2FML+Engineer;Full-Stack+%28MERN+%2B+Python%29+Developer;DSA+%7C+Cloud+%7C+Open-Source+Enthusiast" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ojasvee10&style=for-the-badge&color=blueviolet" />
+  <img src="https://img.shields.io/badge/LeetCode-350%2B%20Problems-orange?style=for-the-badge&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20GCP-blue?style=for-the-badge&logo=googlecloud" />
+  <img src="https://img.shields.io/badge/AI%20%26%20ML-BERT%20%7C%20LLMs-brightgreen?style=for-the-badge" />
+</p>
+
+---
+
+# 🧑‍💻 **About Me**
+I’m a **Software Developer** with hands-on expertise in **Full-Stack Development**, **Machine Learning**,  
+**LLM-based apps**, and **Cloud-native engineering**.
+
+I specialize in:
+- 🚀 Full-Stack (React.js • Node.js • Express.js)
+- 🤖 AI/ML (BERT, NLP, LLMs, TensorFlow)
+- 🛢 Databases (SQL, MongoDB, Oracle)
+- ☁️ Cloud (GCP, AWS, OCI)
+- ⚙️ Backend APIs • Automation • Scalable Systems
+- 🧩 DSA (350+ problems)
+
+I love building **high-impact, production-ready software** supported by strong fundamentals in  
+**OOPs, OS, CN, DBMS**, and **System Design basics**.
+
+---
+
+# 🧠 **Tech Stack**
+<p align="center">
+  <img height="60" src="https://skillicons.dev/icons?i=react,nodejs,express,js,html,css,tailwind,python,c,cpp,fastapi,flask" />
+  <br/>
+  <img height="60" src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite,oracle" />
+  <br/>
+  <img height="60" src="https://skillicons.dev/icons?i=git,github,postman,linux,docker,googlecloud,aws,vscode" />
+</p>
+
+---
+
+# 🛠 **Skills Overview**
+
+| Category | Skills |
+|---------|--------|
+| **Languages** | C/C++, Python, JavaScript |
+| **Frontend** | React.js, HTML, CSS, Tailwind |
+| **Backend** | Node.js, Express.js, REST APIs, Flask, FastAPI |
+| **AI/ML** | BERT, NLP, Gemma, GPT-4o, TensorFlow, Scikit-learn |
+| **Databases** | SQL, MongoDB, NoSQL, Oracle, SQLite |
+| **Cloud** | GCP, AWS, Oracle Cloud |
+| **Tools** | Git, GitHub, Postman, Jupyter Notebook, VS Code |
+
+---
+
+# 🚀 **Featured Projects**
+
+### 🔹 **Lumipsyche: Mental Health Detection**  
+**Tech Stack:** Python, BERT, Scikit-learn, Flask, GCP, SQLite  
+- 85% accuracy in detecting depression & anxiety from text  
+- Multi-class classification for 5+ conditions  
+- Served real-time predictions with <1s latency to 50+ users  
+
+🔗 Repo: https://github.com/Ojasvee10/Lumipsyche
+
+---
+
+### 🔹 **AI-Powered Elderly Care System**  
+**Tech Stack:** Python, Flask, TensorFlow, SQLite, OpenAI APIs, GCP  
+- 92% accurate fall detection  
+- Twilio alerts within 8 seconds  
+- Optimized database for 500+ real-time records  
+
+🔗 Repo: https://github.com/Ojasvee10/elderlycareai
+
+---
+
+### 🔹 **AI Virtual Mouse**  
+**Tech Stack:** Python, OpenCV, MediaPipe  
+- Real-time gesture recognition  
+- 48% RAM optimization  
+- 15+ gesture commands with 90% cursor accuracy  
+
+🔗 Repo: https://github.com/Ojasvee10/ai_virtual_mouse
+
+---
+
+# 🏅 **Achievements**
+- 🧩 **350+ DSA problems** (LeetCode + GFG + HackerRank)  
+- 🏆 **Hackathon Experience:** Flipkart Grid, Adobe Hackathon, IIT Dharwad, L’Oréal Challenge, Myntra HackerRamp, Walmart CodeHers, Salesforce AgentBlazer Champion  
+- 🎓 **Infosys Springboard Cohort 3 Graduate**  
+- ⭐ HackerRank Gold in Python  
+
+---
+
+# 🏆 **GitHub Highlights**
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Ojasvee10&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ojasvee10&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ojasvee10&theme=react-dark&hide_border=true&area=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ojasvee10&theme=tokyonight&no-frame=true" />
+</p>
+
+---
+<!-- Snake Game Repo View -->
 
 <div align="center">
-   <a href="https://github.com/Ojasvee10"><img src="https://i.ibb.co/xz0f62x/hero-banner.png" height="350" /></a>
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
 
-<br>
-
-<h1 align="center">
-   <samp>&gt; Hey There!, I am  
-      <b><a target="_blank" href="https://www.linkedin.com/in/ojasvee-gupta-830952255/">Ojasvee Gupta</a></b>
-   </samp>
-</h1>
-
-<h2 align="center">
-<samp>
-<a href="https://www.linkedin.com/in/ojasvee-gupta-830952255/">「 Connect with me 」</a>  
-<br>
-「 AI | Software Developer | Full-Stack Developer | ML Enthusiast 」
-</samp>
-</h2>
-
-<p align="center">
-   <img src="https://user-images.githubusercontent.com/41234408/101987287-302ffe00-3cb9-11eb-8510-3d08f56bea27.gif" width="100%">
-</p>
-
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
-
-<div align="center">
-<a href="https://www.linkedin.com/in/ojasvee-gupta-830952255/"><img src="https://img.shields.io/badge/LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=000000"/></a>
-<a href="mailto:ojasveegupta10@gmail.com"><img src="https://img.shields.io/badge/Gmail-ffffff?style=for-the-badge&logo=gmail&logoColor=000000"/></a>
-</div>
-
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
-
 ---
 
-## 🧑‍💻 About Me  
-
-<ul>
-  <li>🔭 <b>Currently working on</b>: AI-Powered Elderly Care Project, MERN, ML Models</li>
-  <li>🌱 <b>Learning</b>: Machine Learning, Cloud (AWS), System Design</li>
-  <li>💬 <b>Ask me about</b>: DSA, Python, AI/ML, MERN Stack</li>
-  <li>📫 <b>Reach me</b>: Through links above 👆</li>
-  <li>🚀 <b>Open for</b>: SDE Internships • AI/ML Projects • Open-Source</li>
-</ul>
-
----
-
-<div align="center">
-<h1>Skills & Tech Stack <img src="https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif" width="40"> </h1>
-<h4>Technologies I work with to build scalable, modern and smart applications</h4>
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="96">
-<img src="https://techstack-generator.vercel.app/python-icon.svg" width="45" height="45"><br>Python
-</td>
-<td align="center" width="96">
-<img src="https://techstack-generator.vercel.app/js-icon.svg" width="45" height="45"><br>JavaScript
-</td>
-<td align="center" width="96">
-<img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="45" height="45"><br>C++
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=react" width="45"><br>React
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nodejs" width="45"><br>Node.js
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=mongodb" width="45"><br>MongoDB
-</td>
-</tr>
-
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nextjs" width="45"><br>Next.js
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=express" width="45"><br>Express
-</td>
-<td align="center" width="96">
-<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="45"><br>MySQL
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=tailwind" width="45"><br>Tailwind
-</td>
-<td align="center" width="96">
-<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="45"><br>AWS
-</td>
-<td align="center" width="96">
-<img src="https://techstack-generator.vercel.app/docker-icon.svg" width="45"><br>Docker
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 More Skill Sections
-
-### 🎯 Programming Languages  
+# 📫 **Connect With Me**
 <p align="center">
-<img height="50" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png">
-<img height="50" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg">
-<img height="50" src="https://www.python.org/static/community_logos/python-logo.png">
-<img height="50" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
-</p>
-
-### 🎨 Frontend  
-<p align="center">
-<img height="50" src="https://skillicons.dev/icons?i=html">
-<img height="50" src="https://skillicons.dev/icons?i=css">
-<img height="50" src="https://skillicons.dev/icons?i=react">
-</p>
-
-### ⚙️ Backend  
-<p align="center">
-<img height="50" src="https://skillicons.dev/icons?i=nodejs">
-<img height="50" src="https://skillicons.dev/icons?i=express">
-</p>
-
-### 🗄️ Databases  
-<p align="center">
-<img height="50" src="https://skillicons.dev/icons?i=mysql">
-<img height="50" src="https://skillicons.dev/icons?i=mongodb">
-</p>
-
-### ☁️ Cloud  
-<p align="center">
-<img height="50" src="https://skillicons.dev/icons?i=aws">
-<img height="50" src="https://skillicons.dev/icons?i=gcp">
-<img height="50" src="https://skillicons.dev/icons?i=azure">
-</p>
-
-### 🛠 Tools  
-<p align="center">
-<img height="50" src="https://skillicons.dev/icons?i=vscode">
-<img height="50" src="https://skillicons.dev/icons?i=git">
-<img height="50" src="https://skillicons.dev/icons?i=github">
+  <a href="https://www.linkedin.com/in/ojasvee-gupta/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Ojasvee10">
+    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="mailto:ojasveegupta10@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-d14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-## 🧠 About Me (Developer Personality)
-
-```js
-AboutMe = {
-  passion: "Solving problems through clean & optimized code.",
-  strengths: [
-    "Python, C++, MERN",
-    "Machine Learning",
-    "Cloud & System Design"
-  ],
-  mindset: "Always curious, always building.",
-  motto: "Innovate → Build → Improve ✨"
-}
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&section=footer"/>
+</p>
