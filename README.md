@@ -1,131 +1,289 @@
-<!-- ========== HERO SECTION ========== -->
+/*
+Next.js Portfolio (Black & White theme) - Scaffold
+Files included below separated by comments like: === file: path ===
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=900&center=true&vCenter=true&color=00E5FF&width=650&lines=Hi%2C+I'm+Ojasvee+Gupta!;Software+Developer+%7C+AI%2FML+Engineer;Full-Stack+%28MERN+%2B+Python%29+Developer;DSA+%7C+Cloud+%7C+Open-Source+Enthusiast" alt="Typing SVG" />
-</p>
+How to use:
+1. Create a new Next.js app: npx create-next-app@latest my-portfolio
+2. Replace / add the following files accordingly.
+3. Install Tailwind: follow Tailwind + Next.js setup or run: npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p
+4. npm install
+5. npm run dev
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ojasvee10&style=for-the-badge&color=blueviolet" />
-  <img src="https://img.shields.io/badge/LeetCode-350%2B%20Problems-orange?style=for-the-badge&logo=leetcode" />
-  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20GCP-blue?style=for-the-badge&logo=googlecloud" />
-  <img src="https://img.shields.io/badge/AI%20%26%20ML-BERT%20%7C%20LLMs-brightgreen?style=for-the-badge" />
-</p>
+This scaffold uses Tailwind CSS for styles and includes:
+- Dark/Light toggle
+- Black & White minimalist banner (SVG)
+- Animated stats section
+- ResumeHeader component for PDF-ready header (HTML/CSS)
 
----
+*/
 
-# 🧑‍💻 **About Me**
-I’m a **Software Developer** with hands-on expertise in **Full-Stack Development**, **Machine Learning**,  
-**LLM-based apps**, and **Cloud-native engineering**.
+/* === file: package.json === */
+{
+  "name": "nextjs-portfolio-blackwhite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.24",
+    "tailwindcss": "3.4.7"
+  }
+}
 
-I specialize in:
-- 🚀 Full-Stack (React.js • Node.js • Express.js)
-- 🤖 AI/ML (BERT, NLP, LLMs, TensorFlow)
-- 🛢 Databases (SQL, MongoDB, Oracle)
-- ☁️ Cloud (GCP, AWS, OCI)
-- ⚙️ Backend APIs • Automation • Scalable Systems
-- 🧩 DSA (350+ problems)
+/* === file: tailwind.config.js === */
+module.exports = {
+  content: ["./pages/**/*.{js,jsx}", "./components/**/*.{js,jsx}"],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        bwbg: '#0b0b0b',
+        bwfg: '#ffffff'
+      }
+    }
+  },
+  plugins: []
+}
 
-I love building **high-impact, production-ready software** supported by strong fundamentals in  
-**OOPs, OS, CN, DBMS**, and **System Design basics**.
+/* === file: postcss.config.js === */
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {}
+  }
+}
 
----
+/* === file: styles/globals.css === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-# 🧠 **Tech Stack**
-<p align="center">
-  <img height="60" src="https://skillicons.dev/icons?i=react,nodejs,express,js,html,css,tailwind,python,c,cpp,fastapi,flask" />
-  <br/>
-  <img height="60" src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite,oracle" />
-  <br/>
-  <img height="60" src="https://skillicons.dev/icons?i=git,github,postman,linux,docker,googlecloud,aws,vscode" />
-</p>
+:root {
+  --bg: #ffffff;
+  --fg: #0b0b0b;
+}
 
----
+.dark {
+  --bg: #0b0b0b;
+  --fg: #ffffff;
+}
 
-# 🛠 **Skills Overview**
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  transition: background-color 250ms ease, color 250ms ease;
+}
 
-| Category | Skills |
-|---------|--------|
-| **Languages** | C/C++, Python, JavaScript |
-| **Frontend** | React.js, HTML, CSS, Tailwind |
-| **Backend** | Node.js, Express.js, REST APIs, Flask, FastAPI |
-| **AI/ML** | BERT, NLP, Gemma, GPT-4o, TensorFlow, Scikit-learn |
-| **Databases** | SQL, MongoDB, NoSQL, Oracle, SQLite |
-| **Cloud** | GCP, AWS, Oracle Cloud |
-| **Tools** | Git, GitHub, Postman, Jupyter Notebook, VS Code |
+/* minimal card */
+.card {
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 1rem;
+  border-radius: 12px;
+}
 
----
+/* resume header printable */
+.resume-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0.8rem;
+}
 
-# 🚀 **Featured Projects**
+/* small utilities */
+.center { display:flex; align-items:center; justify-content:center; }
 
-### 🔹 **Lumipsyche: Mental Health Detection**  
-**Tech Stack:** Python, BERT, Scikit-learn, Flask, GCP, SQLite  
-- 85% accuracy in detecting depression & anxiety from text  
-- Multi-class classification for 5+ conditions  
-- Served real-time predictions with <1s latency to 50+ users  
+/* === file: pages/_app.js === */
+import '../styles/globals.css'
+import { useEffect, useState } from 'react'
 
-🔗 Repo: https://github.com/Ojasvee10/Lumipsyche
+export default function App({ Component, pageProps }) {
+  const [theme, setTheme] = useState('light')
+  useEffect(() => {
+    const t = localStorage.getItem('theme') || 'light'
+    setTheme(t)
+    if (t === 'dark') document.documentElement.classList.add('dark')
+    else document.documentElement.classList.remove('dark')
+  }, [])
+  const toggle = () => {
+    const next = theme === 'dark' ? 'light' : 'dark'
+    setTheme(next)
+    if (next === 'dark') document.documentElement.classList.add('dark')
+    else document.documentElement.classList.remove('dark')
+    localStorage.setItem('theme', next)
+  }
+  return (
+    <div className="min-h-screen">
+      <Component {...pageProps} theme={theme} toggleTheme={toggle} />
+    </div>
+  )
+}
 
----
+/* === file: components/Navbar.jsx === */
+export default function Navbar({ toggleTheme, theme }){
+  return (
+    <nav className="w-full py-4 px-6 flex items-center justify-between">
+      <div className="flex items-center gap-3">
+        <svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <rect x="6" y="6" width="88" height="88" rx="14" fill="none" stroke="currentColor" strokeWidth="6" />
+          <text x="50" y="60" fontSize="36" textAnchor="middle" fill="currentColor">OJ</text>
+        </svg>
+        <div className="text-sm">
+          <div className="font-bold">Ojasvee Gupta</div>
+          <div className="text-xs opacity-70">Software Developer</div>
+        </div>
+      </div>
+      <div className="flex items-center gap-3">
+        <button onClick={toggleTheme} className="px-3 py-1 rounded-md border">
+          {theme === 'dark' ? 'Light' : 'Dark'}
+        </button>
+      </div>
+    </nav>
+  )
+}
 
-### 🔹 **AI-Powered Elderly Care System**  
-**Tech Stack:** Python, Flask, TensorFlow, SQLite, OpenAI APIs, GCP  
-- 92% accurate fall detection  
-- Twilio alerts within 8 seconds  
-- Optimized database for 500+ real-time records  
+/* === file: components/Banner.jsx === */
+export default function Banner(){
+  return (
+    <header className="py-12 px-6 center flex-col gap-4">
+      <div className="max-w-3xl text-center">
+        <h1 className="text-4xl font-extrabold">Ojasvee Gupta</h1>
+        <p className="mt-3 text-lg opacity-80">SDE • Full-Stack Developer • ML Enthusiast</p>
+      </div>
 
-🔗 Repo: https://github.com/Ojasvee10/elderlycareai
+      <div className="mt-6">
+        {/* minimal black-white SVG banner */}
+        <svg width="820" height="120" viewBox="0 0 820 120" xmlns="http://www.w3.org/2000/svg" role="img">
+          <rect width="820" height="120" rx="12" fill="none" stroke="currentColor" strokeWidth="1" />
+          <g transform="translate(24,24)" fill="none" stroke="currentColor">
+            <path d="M0 60 Q120 0 240 60 T480 60 T720 60" strokeWidth="1" opacity="0.7" />
+          </g>
+        </svg>
+      </div>
+    </header>
+  )
+}
 
----
+/* === file: components/Stats.jsx === */
+import { useEffect, useState } from 'react'
 
-### 🔹 **AI Virtual Mouse**  
-**Tech Stack:** Python, OpenCV, MediaPipe  
-- Real-time gesture recognition  
-- 48% RAM optimization  
-- 15+ gesture commands with 90% cursor accuracy  
+function StatCard({label, value}){
+  return (
+    <div className="card shadow-sm p-4 w-full max-w-xs">
+      <div className="text-xs opacity-70">{label}</div>
+      <div className="text-2xl font-bold mt-2">{value}</div>
+    </div>
+  )
+}
 
-🔗 Repo: https://github.com/Ojasvee10/ai_virtual_mouse
+export default function Stats(){
+  // placeholder values - replace with real APIs (github-readme-stats or GH REST API)
+  const [stats, setStats] = useState({repos: 24, stars: 142, solved: 550})
+  useEffect(()=>{
+    // Example: fetch GitHub stats or LeetCode stats here
+  },[])
+  return (
+    <section className="py-8 px-6 center flex-col gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <StatCard label="Public Repos" value={stats.repos} />
+        <StatCard label="GitHub Stars" value={stats.stars} />
+        <StatCard label="DSA Problems" value={stats.solved} />
+      </div>
+    </section>
+  )
+}
 
----
+/* === file: components/ResumeHeader.jsx === */
+export default function ResumeHeader(){
+  return (
+    <div className="resume-header card max-w-2xl mx-auto">
+      <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+        <div>
+          <h2 className="text-2xl font-bold">Ojasvee Gupta</h2>
+          <div className="text-sm opacity-80">Software Developer • Full-Stack • ML</div>
+        </div>
+        <div className="text-right text-sm opacity-80">
+          <div>📍 India</div>
+          <div>✉️ ojasveegupta10@gmail.com</div>
+          <div>🔗 linkedin.com/in/ojasvee-gupta-830952255</div>
+        </div>
+      </div>
+    </div>
+  )
+}
 
-# 🏅 **Achievements**
-- 🧩 **350+ DSA problems** (LeetCode + GFG + HackerRank)  
-- 🏆 **Hackathon Experience:** Flipkart Grid, Adobe Hackathon, IIT Dharwad, L’Oréal Challenge, Myntra HackerRamp, Walmart CodeHers, Salesforce AgentBlazer Champion  
-- 🎓 **Infosys Springboard Cohort 3 Graduate**  
-- ⭐ HackerRank Gold in Python  
+/* === file: pages/index.js === */
+import Navbar from '../components/Navbar'
+import Banner from '../components/Banner'
+import Stats from '../components/Stats'
+import ResumeHeader from '../components/ResumeHeader'
 
----
+export default function Home({ theme, toggleTheme }){
+  return (
+    <main className="min-h-screen">
+      <Navbar toggleTheme={toggleTheme} theme={theme} />
+      <Banner />
+      <Stats />
 
-# 🏆 **GitHub Highlights**
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Ojasvee10&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ojasvee10&theme=tokyonight&hide_border=true" />
-</p>
+      <section className="py-8 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-xl font-semibold">About</h3>
+          <p className="mt-3 opacity-80">I build full-stack applications and experiment with ML models. My focus is efficient design and production-ready systems. Experienced in C++, Python, React, Node.js, MongoDB and cloud services.</p>
+        </div>
+      </section>
 
-<p align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ojasvee10&theme=react-dark&hide_border=true&area=true" />
-</p>
+      <section className="py-8 px-6 bg-transparent">
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-xl font-semibold">Projects</h3>
+          <ul className="mt-4 space-y-3">
+            <li className="card p-4">Project A — Short description. <a className="underline" href="#">Repo</a></li>
+            <li className="card p-4">Project B — Short description. <a className="underline" href="#">Repo</a></li>
+          </ul>
+        </div>
+      </section>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ojasvee10&theme=tokyonight&no-frame=true" />
-</p>
+      <section className="py-8 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-xl font-semibold">Resume Header (Preview)</h3>
+          <div className="mt-4"><ResumeHeader /></div>
+        </div>
+      </section>
 
----
+      <footer className="py-8 px-6 center">
+        <div className="opacity-70">© {new Date().getFullYear()} Ojasvee Gupta — Designed with a minimalist black & white theme.</div>
+      </footer>
+    </main>
+  )
+}
 
-# 📫 **Connect With Me**
-<p align="center">
-  <a href="https://www.linkedin.com/in/ojasvee-gupta/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Ojasvee10">
-    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github"/>
-  </a>
-  <a href="mailto:ojasveegupta10@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-d14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+/* === file: public/banner.svg === */
+<!-- Minimalist black-white banner (optional) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200">
+  <rect width="1200" height="200" rx="12" fill="none" stroke="black" opacity="0.06"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="36">Ojasvee • Software Developer</text>
+</svg>
 
----
+/* === file: README.md (project usage) === */
+# Next.js Portfolio - Black & White
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&section=footer"/>
-</p>
+This repository contains a minimal Next.js portfolio scaffold with a black & white theme, dark/light toggle, and components for a banner, animated stats, and a printable resume header.
+
+## Setup
+1. Install dependencies: `npm install`
+2. Run dev server: `npm run dev`
+
+## Notes
+- Replace placeholder data with your real project links and API calls (GitHub/LeetCode) if desired.
+- To export a PDF resume: open the ResumeHeader route and print to PDF using the browser's print dialog.
+
+
+/* End of scaffold */
